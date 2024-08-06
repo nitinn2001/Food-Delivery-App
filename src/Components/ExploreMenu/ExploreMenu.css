@@ -1,0 +1,38 @@
+.exploremenu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.items{
+    margin-top: 30px;
+    display: flex;
+    gap: 60px;
+    overflow-x: scroll;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.items::-webkit-scrollbar{
+    display: none;
+}
+
+.items hr{
+    margin: 10px;
+    border: 2px solid #626262;
+}
+
+.item img{
+    border-radius: 50%;
+}
+
+.item .active{
+    border: 4px solid tomato;
+    padding: 8px;
+}

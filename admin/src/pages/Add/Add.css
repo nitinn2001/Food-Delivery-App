@@ -1,0 +1,74 @@
+.add {
+    padding: 80px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.item-img{
+    width: 150px;
+}
+
+.add form{
+    padding: 20px;
+    min-width: 530px;
+    width: 100%;
+}
+
+.add form input{
+    width: 100%;
+    padding: 20px;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.add form textarea{
+    width: 100%;
+    padding: 5px;
+}
+
+.upload-image {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.product-name {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.product-description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.product-category{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.product-price{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.add-btn{
+    max-width:150px;
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}

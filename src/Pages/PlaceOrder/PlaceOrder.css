@@ -1,0 +1,63 @@
+.placeorder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.placeorder-left{
+    max-width: 600px;
+    width: 100%;
+}
+
+.placeorder-left form input{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+.divider{
+    display: flex;
+    gap: 20px;
+}
+
+.cart-totals{
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.cart-totals h2{
+    margin-bottom: 20px;
+}
+
+.subtotal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.delivery-fee{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.checkout{
+    padding: 20px;
+    background-color: tomato;
+    border: none;
+    outline: none;
+}
+

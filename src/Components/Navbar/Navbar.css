@@ -1,0 +1,90 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.navbar-list{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar-list li{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.navbar-right{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-right img{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.navbar-right .sign-in{
+    background: transparent;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 1px solid tomato;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.sign-in:hover{
+    background-color: #fff4f2;;
+}
+
+.active{
+    border-bottom: 3px solid #626262;
+}
+
+.navbar-basket{
+    position: relative;
+}
+
+.navbar-basket .dot{
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    min-height: 10px;
+    min-width: 10px;
+    border-radius: 50%;
+    background-color: tomato;
+}
+
+.profile-img {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.drop-down {
+    position: absolute;
+    top:100%;
+    right: 0px;
+    display: none;
+    z-index: 1;
+    gap: 10px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    list-style-type: none;;
+}
+
+.profile-img:hover .drop-down {
+    display: flex;
+}

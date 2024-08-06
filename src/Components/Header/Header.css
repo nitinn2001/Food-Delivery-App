@@ -1,0 +1,43 @@
+.header{
+    height: 34vw;
+    width: 100%;
+    background-image: url('/Users/nitinjeyakumar/Desktop/full stack/food-del/src/assets/header_img.png') ;
+    background-repeat: no-repeat;
+    margin: 30px auto;
+    background-size: cover;
+    position: relative;
+}
+
+.header-content{
+    position: absolute;
+    left: 120px;
+    bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.header-content h1{
+    max-width: 55vw;
+    width: 100%;
+    font-size: 70px;
+    font-weight: 400;
+    color: white;
+}
+
+.header-content p{
+    max-width: 40vw;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.header-content button{
+    max-width: 200px;
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

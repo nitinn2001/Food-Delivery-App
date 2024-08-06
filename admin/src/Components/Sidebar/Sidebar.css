@@ -1,0 +1,28 @@
+.sidebar{
+    border: 1px solid black;
+    border-top: none;
+    min-height: 100vh;
+    height: 100%;
+    padding-top: 40px;
+    padding-left: 120px;
+    margin-top: 0px;
+}
+
+.sidebar-options{
+    min-width: 180px;
+    width: 100%;
+    border: 1px solid black;
+    border-right: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.sidebar-options img{
+    cursor: pointer;
+}
+
+.sidebar-options p{
+    cursor: pointer;
+}

@@ -1,0 +1,39 @@
+.list{
+    margin: 90px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    gap: auto;
+}
+.container h1{
+    margin-bottom: 40px;
+}
+
+.list-titles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: flex-start;
+}
+
+.list-food-items{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.list-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    text-align: flex-start;
+    align-items: center;
+
+}
+
+.list-item img{
+    width: 60%;
+}

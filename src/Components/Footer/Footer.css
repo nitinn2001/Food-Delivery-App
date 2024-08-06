@@ -1,0 +1,40 @@
+.footer{
+    padding: 80px;
+    margin-top: 50px;
+    background: #626262;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 40px;
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-left .logo{
+    width: 250px;
+}
+
+.social-icons{
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.footer-middle{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.company-abouts{
+    list-style: none;
+}
+
+.company-abouts li{
+    margin-top: 10px;
+}
